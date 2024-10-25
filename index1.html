@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MongoApp</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/styles.css')}}">
+</head>
+<body>
+    <h1><b>MONGODB FLASK_APP</b></h1>
+    <div class="content">
+        <form method="POST" action="/">
+            <p>
+                <b><label for="username">Username</label></b>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </p>
+            <p>
+                <b><label for="password">Password</label></b>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </p><br><br>
+            <p>
+                <input type="submit" value="Login">
+            </p>
+
+            
+        </form>
+
+
+    </div>
+</body>
+</html>
